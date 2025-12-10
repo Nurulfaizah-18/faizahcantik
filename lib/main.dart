@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Randukumbolo Template',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
         useMaterial3: true,
       ),
       home: const HomePage(),
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.nature, size: 100, color: Colors.green),
+            const Icon(Icons.nature, size: 100, color: Colors.pink),
             const SizedBox(height: 20),
             const Text(
               'Selamat Datang di\nRandukumbolo Template',
